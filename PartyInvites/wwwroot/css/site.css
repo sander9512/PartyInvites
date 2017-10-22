@@ -1,7 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    /*background-color: #FFD71A;*/
+    background-color: #FFCA0B;
 }
 
 /* Wrapping element */
@@ -23,6 +23,9 @@ textarea {
     font-size: 20px;
     line-height: 1.4;
 }
+.table-color {
+    background-color: #FFCA0B;
+}
 
 /* Make .svg files in the carousel display properly in older browsers */
 .carousel-inner .item img[src$=".svg"] {
@@ -35,13 +38,13 @@ textarea {
     margin-right: 20px;
 }
 .navbar-custom {
-    background-color: #F0C900;
-    border-color: #F0C900;
+    background-color: #FF290D;
+    border-color: #FF290D;
 }
     /* change the brand and text color */
     .navbar-custom .navbar-brand,
     .navbar-custom .navbar-text {
-        color: #130061;
+        color: #FFCA0B;
     }
     /* change the link color */
     .navbar-custom .navbar-nav .nav-link {
@@ -53,10 +56,10 @@ textarea {
         color: #F0C900;
     }
 .navbar-inverse .navbar-nav > li > a {
-    color: #130061 !important;
+    color: #FFCA0B !important;
 }
 .btn-text {
-    color: #130061;
+    color: #FFCA0B;
 }
 .rsvp {
     color: #0D00FF !important;
@@ -71,30 +74,34 @@ rsvp-header {
 }
 .panel-success {
     margin-top: 50px;
-    background-color: #FFDD2B !important;
-    border-color: #0D00FF !important;
+    background-color: #E83D0C !important;
+    border-color: #FFCA0B !important;
 }
 .panel-heading {
-    background-color: #F0C900 !important;
-    border-color: #0D00FF !important;
+    background-color: #FF0E0D !important;
+    border-color: #FFCA0B !important;
 }
 .rsvp-btn {
     background-color: #050061;
     border-color: #050061;
 }
 .btn-text-alt {
-    color: #FFDD2B;
+    color: #FF0E0D;
 }
 .count-component {
-    color: #130061;
+    color: ##FFCA0B;
 }
 .img-custom {
     margin-bottom: 20px;
     border-radius: 5px;
 }
 .count-component-btn {
-    background-color: #FFDD2B;
-    border-color: #FFDD2B;
+    background-color: #FF0E0D;
+    border-color: #FF0E0D;
+}
+.count-btn {
+    background-color: #FFCA0B;
+    border-color: #FFCA0B;
 }
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
