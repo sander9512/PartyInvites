@@ -1,0 +1,12 @@
+﻿@model PartyInvites.Models.ViewModels.ResponseSummary
+<div class="">
+        <small class="navbar-text">
+            <b>Aanmeldingen:</b>
+            <br />
+            @Model.Attendees van de @Model.TotalResponses aanmeldingen zullen aanwezig zijn
+        </small>
+    <a class="btn btn-sm btn-default navbar-btn"
+       asp-controller="Home" asp-action="RsvpForm">
+        Rsvp
+    </a>
+</div>

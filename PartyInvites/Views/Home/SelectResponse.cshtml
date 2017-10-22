@@ -1,0 +1,22 @@
+﻿@model PartyInvites.Models.GuestResponse
+@{
+    ViewData["Title"] = "Search";
+}
+<body>
+    <div class="panel panel-success">
+        <div class="panel-heading text-center"><h4>RSVP</h4></div>
+        <div class="panel-body">
+            <form class="p-a-1" asp-action="EditResponse" method="post">
+                <div class="form-group">
+                    <label asp-for="Email">Your email:</label>
+                    <input class="form-control" name="Email" />
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary" type="submit">
+                        Find response
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

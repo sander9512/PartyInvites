@@ -1,6 +1,6 @@
 ﻿@model PartyInvites.Models.GuestResponse
 @{
-    ViewData["Title"] = "Rsvp";
+    ViewData["Title"] = "Edit response";
 }
 <body>
     <div class="panel panel-success">
@@ -10,19 +10,19 @@
                 <div asp-validation-summary="All"></div>
                 <div class="form-group">
                     <label asp-for="Name">Your name:</label>
-                    <input class="form-control" asp-for="Name" />
+                    <input class="form-control" asp-for="Name"/>
                 </div>
                 <div class="form-group">
                     <label asp-for="Email">Your email:</label>
-                    <input class="form-control" asp-for="Email" />
+                    <input class="form-control" asp-for="Email" readonly="readonly"/>
                 </div>
                 <div class="form-group">
                     <label asp-for="Phone">Your phone:</label>
-                    <input class="form-control" asp-for="Phone" />
+                    <input class="form-control" asp-for="Phone"/>
                 </div>
                 <div class="form-group">
                     <label asp-for="Address">Your Address:</label>
-                    <input class="form-control" asp-for="Address" />
+                    <input class="form-control" asp-for="Address"/>
                 </div>
                 <div class="form-group">
                     <label>Will you attend?</label>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="text-center">
                     <button class="btn btn-primary" type="submit">
-                        Submit RSVP
+                        Submit changes
                     </button>
                 </div>
             </form>
