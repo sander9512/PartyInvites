@@ -4,7 +4,7 @@
 }
 <body>
     <div class="panel panel-success">
-        <div class="panel-heading text-center"><h4>RSVP</h4></div>
+        <div class="panel-heading text-center"><h4 class="btn-text">RSVP</h4></div>
         <div class="panel-body">
             <form class="p-a-1" asp-action="RsvpForm" method="post">
                 <div asp-validation-summary="All"></div>
@@ -33,7 +33,7 @@
                     </select>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-primary" type="submit">
+                    <button class="btn btn-primary rsvp-btn btn-text-alt" type="submit">
                         Submit RSVP
                     </button>
                 </div>

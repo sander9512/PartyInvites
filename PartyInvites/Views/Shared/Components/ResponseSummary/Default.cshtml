@@ -1,11 +1,11 @@
 ﻿@model PartyInvites.Models.ViewModels.ResponseSummary
-<div class="">
-        <small class="navbar-text">
-            <b>Aanmeldingen:</b>
+<div class="count-component">
+        <small class="navbar-text count-component">
+            <b class="count-component">Aanmeldingen:</b>
             <br />
-            @Model.Attendees van de @Model.TotalResponses aanmeldingen zullen aanwezig zijn
+            <b class="count-component">@Model.Attendees van de @Model.TotalResponses aanmeldingen zullen aanwezig zijn</b>
         </small>
-    <a class="btn btn-sm btn-default navbar-btn"
+    <a class="btn btn-sm btn-default navbar-btn count-component-btn"
        asp-controller="Home" asp-action="RsvpForm">
         Rsvp
     </a>
